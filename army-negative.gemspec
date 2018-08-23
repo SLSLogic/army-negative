@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails",  "~> 4.0.0"
-  s.add_dependency "mysql2", "~> 0.3.7"
+  s.add_dependency "mysql2", "~> 0.4.7"
 
   if s.respond_to?(:add_development_dependency)
     s.add_development_dependency "cucumber", "~> 1.0.5"
